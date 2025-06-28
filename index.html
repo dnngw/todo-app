@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/main.css">
+  <title>Todo List</title>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="todo-app">
+      <!--header-->
+      <div class="todo-app__header">
+        <div class="todo-app__title-section">
+          <img src="./assets/logo/title_logo.png" alt="logo" class="todo-app__logo">
+          <h1 class="todo-app__title">Todo List</h1>
+        </div>
+        <p class="todo-app__description">Stay orgenized and productive</p>
+      </div>
+      <!--form section-->
+      <div class="todo-app__form-section">
+        <div class="todo-app__form">
+          <input type="text" class="todo-app__input" placeholder="What need to be done?">
+          <button class="todo-app__submit-button" type="submit">Add Task</button>
+        </div>
+        <div class="todo-app__filter">
+          <button class="todo-app__filter-button">All</button>
+          <button class="todo-app__filter-button">Active</button>
+          <button class="todo-app__filter-button">Complete</button>
+        </div>
+        <hr>
+      </div>
+      <!--task section-->
+      <div class="todo-app__task-section">
+        <!--task status-->
+        <div class="todo-app__task-status">
+          <div class="todo-app__task-child">
+            <p class="todo-app__task-total">0</p>
+            <p class="todo-app__task-description">Total</p>
+          </div>
+          <div class="todo-app__task-child">
+            <p class="todo-app__task-active">0</p>
+            <p class="todo-app__task-description">Active</p>
+          </div>
+          <div class="todo-app__task-child">
+            <p class="todo-app__task-completed">0</p>
+            <p class="todo-app__task-description">Completed</p>
+          </div>
+        </div>
+        <!--task list-->
+        <div class="todo-app__task-list">
+          <!--task item-->
+  
+          <!--no task-->
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--script-->
+  <script src="./scripts/script.js"></script>
+</body>
+</html>
